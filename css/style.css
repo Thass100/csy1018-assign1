@@ -1,0 +1,138 @@
+h1 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    line-height: 100%;
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 1.2em;
+    color: #333;
+    background-color: grey;
+    resolution: 1024x768;
+    height:100%;
+
+}
+
+.navigation_bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+/* Change the link color to #111 (black) on hover */
+
+li a:hover {
+    background-color: #111;
+}
+
+.heading1 {
+    text-align: center;
+}
+.footer {
+    border: 5px;
+    padding: 1em;
+    background: rgb(27, 83, 110);
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+}
+.biotext {
+    text-align: left;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+.main {
+    padding: 1em;
+    background: rgb(187, 179, 135);
+    text-align: center;
+}
+.contactform {
+margin: auto;
+
+  list-style-type: none;
+}
+input[type=text]{
+  display: flex;
+
+}
+.aside {
+    padding: 1em;
+    text-align: center;
+    background: rgb(224, 220, 199);
+}
+@media (max-width: 30em) {
+    if viewport is 30em style these .main {
+        flex: 1 0 auto;
+    }
+}
+@media (min-width: 30em) {
+    .nav {
+        display: block;
+    }
+
+    .wrapper {
+        flex-direction: row;
+    }
+
+    .main {
+        flex: 1 1 auto;
+    }
+
+    .aside {
+        width: 20%;
+    }
+
+    .portrait {
+        width: 500px;
+        height: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0.7em;
+    }
+
+    .contact {
+        width: 50%;
+        height: 25%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    style="width:304px;height:228px"
+}
+.footer {
+    padding: 0.7em;
+    background: #000000;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1.2em;
+}
+.family1 {
+    width: 500px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
