@@ -22,7 +22,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: black;
 }
 
 li {
@@ -49,11 +49,16 @@ li a:hover {
 }
 .footer {
     border: 5px;
-    padding: 1em;
-    background: rgb(27, 83, 110);
+    padding: 0m;
+    background: black;
     text-align: center;
     list-style: none;
     text-decoration: none;
+
+}
+
+.footer li {
+  list-style-type: none;
 }
 .biotext {
     text-align: left;
