@@ -1,4 +1,5 @@
 /*Thasin Miah ID - 16430085*/
+
 h1 {
     font-family: 'Open Sans', sans-serif;
 }
@@ -15,6 +16,7 @@ body {
     background-color: grey;
     resolution: 1024x768;
     height:100%;
+    /*styles for the body area*/
 
 }
 
@@ -24,6 +26,7 @@ body {
     padding: 0;
     overflow: hidden;
     background-color: black;
+    
 }
 
 li {
